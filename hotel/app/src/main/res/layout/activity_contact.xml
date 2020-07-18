@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".contactActivity"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact Us"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:padding="20dp"
+        android:textColor="@color/colorText"
+        android:background="@color/backColor"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="bookmyhotel is a hotel search engine. We search all hotels, to help you find the best hotel prices. For any questions regarding your reservation, please contact us."
+        android:textColor="@color/blackColor"
+        android:padding="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="bookmyhotel"
+        android:textColor="@color/blackColor"
+        android:paddingTop="20dp"
+        android:paddingLeft="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2100 boul. de Maisonneuve Est, étage #4"
+        android:textColor="@color/blackColor"
+        android:paddingLeft="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Montréal, Québec"
+        android:textColor="@color/blackColor"
+        android:paddingLeft="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="H2K 4S1"
+        android:textColor="@color/blackColor"
+        android:paddingLeft="20dp"
+    />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact Number : 1-438-342-2426"
+        android:textColor="@color/blackColor"
+        android:paddingTop="20dp"
+        android:paddingLeft="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email : info@isi-international.com"
+        android:textColor="@color/blackColor"
+        android:paddingLeft="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="If you want to Contact us via Email"
+        android:textColor="@color/blackColor"
+        android:padding="20dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp">
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="example@gmail.com"
+        android:padding="15dp" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="send"
+            android:background="@color/backColor"
+            android:textColor="@color/colorText"
+            android:onClick="sendEmail"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".register"
+    android:padding="10sp"
+    android:background="@color/backColor">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/logo" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/registerText"
+        android:textSize="30sp"
+        android:padding="20sp"
+        android:textColor="@color/colorText"
+        />
+
+        <EditText
+            android:id="@+id/register_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Name"
+            android:padding="20sp"
+            android:textColor="@color/colorText"
+            android:textColorHint="@color/colorText"/>
+
+    <EditText
+        android:id="@+id/register_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:padding="20sp"
+        android:textColor="@color/colorText"
+        android:textColorHint="@color/colorText"
+        />
+
+    <EditText
+        android:id="@+id/register_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="Email"
+        android:padding="20sp"
+        android:textColor="@color/colorText"
+        android:textColorHint="@color/colorText"/>
+
+    <EditText
+        android:id="@+id/register_region"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Region"
+        android:padding="20sp"
+        android:textColor="@color/colorText"
+        android:textColorHint="@color/colorText"/>
+
+    <EditText
+        android:id="@+id/register_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone"
+        android:hint="Phone Number"
+        android:padding="20sp"
+        android:textColor="@color/colorText"
+        android:textColorHint="@color/colorText"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="20sp"
+        >
+
+        <Button
+            android:id="@+id/register_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Submit"
+            android:padding="10sp"
+            android:onClick="register_submit"
+            style="?android:attr/borderlessButtonStyle"
+            android:textColor="@color/colorText"
+            />
+
+        <Button
+            android:id="@+id/register_clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Clear"
+            android:padding="10sp"
+            android:onClick="register_clear"
+            style="?android:attr/borderlessButtonStyle"
+            android:textColor="@color/colorText"/>
+    </LinearLayout>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
